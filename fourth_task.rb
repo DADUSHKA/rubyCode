@@ -1,4 +1,4 @@
-def meth(num)
+def multiplication_table_from(num)
   # создание массива из полученного, до заданного числа, интервала
   arr1 = (0..num).to_a
 
@@ -19,4 +19,4 @@ def meth(num)
     end   
 end
 
-meth(5)
+multiplication_table_from(5)

@@ -1,4 +1,4 @@
-def first(arg)
+def string_from_number(arg)
   first_word = " компьютер"
   second_word = " компьютеров"
 
@@ -16,4 +16,4 @@ def first(arg)
   string
 end
 
- p first(31)
+ p string_from_number(31)
